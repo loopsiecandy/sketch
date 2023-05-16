@@ -1,0 +1,20 @@
+body{background-color: rgb(190, 142, 234);}
+h1
+{
+    background-color:rgb(132, 53, 158);
+    color:aliceblue;
+}
+#show_sketch{
+float:right;
+}
+canvas{
+border: 5px solid white;
+border-radius: 15px;
+animation-name:lala ;
+animation-duration:5s;
+animation-iteration-count:infinite;
+}
+@keyframes lala{
+from{box-shadow: 1px 1px 38px grey;}
+to{box-shadow: 1px 1px 38px pink;}
+}
